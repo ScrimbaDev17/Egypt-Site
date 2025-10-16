@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: tan;
+}
+
+header {
+    text-align: left;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+    
+
+.text {
+  font-family: Verdana;
+}
+
+section {
+    padding: 10px;
+    text-align: left;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.title-image {
+    width: 200px;
+    height: auto;
+    float: right;
+    margin: 10px;
+    position: relative;
+    }
+    
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-line1 {
+    height: 2px;
+    background-color: black;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+
+/*Mobile Version*/
+
+@media (max-width: 767px) {
+    body {
+        width: 100%;
+        float: left;
+    }
+}
